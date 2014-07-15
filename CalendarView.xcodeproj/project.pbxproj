@@ -1,0 +1,413 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B219A06A16BC088D005E78FC /* YJCalendarWeekScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = B219A06916BC088C005E78FC /* YJCalendarWeekScrollView.m */; };
+		B219A06F16BC0AC2005E78FC /* YJScrollWeekViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B219A06D16BC0AC0005E78FC /* YJScrollWeekViewViewController.m */; };
+		B219A07016BC0AC2005E78FC /* YJScrollWeekViewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B219A06E16BC0AC1005E78FC /* YJScrollWeekViewViewController.xib */; };
+		B26893C816B8C671009C130F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B26893C716B8C671009C130F /* UIKit.framework */; };
+		B26893CA16B8C671009C130F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B26893C916B8C671009C130F /* Foundation.framework */; };
+		B26893CC16B8C671009C130F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B26893CB16B8C671009C130F /* CoreGraphics.framework */; };
+		B26893D216B8C671009C130F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B26893D016B8C671009C130F /* InfoPlist.strings */; };
+		B26893D416B8C671009C130F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B26893D316B8C671009C130F /* main.m */; };
+		B26893D816B8C671009C130F /* YJAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B26893D716B8C671009C130F /* YJAppDelegate.m */; };
+		B26893DA16B8C671009C130F /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = B26893D916B8C671009C130F /* Default.png */; };
+		B26893DC16B8C671009C130F /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B26893DB16B8C671009C130F /* Default@2x.png */; };
+		B26893DE16B8C671009C130F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B26893DD16B8C671009C130F /* Default-568h@2x.png */; };
+		B26893EB16B8D40D009C130F /* YJDayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B26893E916B8D40D009C130F /* YJDayViewController.m */; };
+		B26893EC16B8D40D009C130F /* YJDayViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B26893EA16B8D40D009C130F /* YJDayViewController.xib */; };
+		B26893F016B8D4A6009C130F /* YJCalendarDayView.m in Sources */ = {isa = PBXBuildFile; fileRef = B26893EF16B8D4A6009C130F /* YJCalendarDayView.m */; };
+		B26893F916B8D8B8009C130F /* YJCalendarEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = B26893F816B8D8B8009C130F /* YJCalendarEvent.m */; };
+		B26893FF16B906B3009C130F /* YJEventCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = B26893FE16B906B3009C130F /* YJEventCalculator.m */; };
+		B268940516B92EC8009C130F /* YJCalendarEventItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = B268940416B92EC8009C130F /* YJCalendarEventItemView.m */; };
+		B268940716B9780D009C130F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B268940616B9780D009C130F /* QuartzCore.framework */; };
+		B2E09F3616BA180900C3D1F4 /* YJWeekViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2E09F3416BA180900C3D1F4 /* YJWeekViewController.m */; };
+		B2E09F3716BA180900C3D1F4 /* YJWeekViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B2E09F3516BA180900C3D1F4 /* YJWeekViewController.xib */; };
+		B2E09F3B16BA183D00C3D1F4 /* YJCalendarWeekView.m in Sources */ = {isa = PBXBuildFile; fileRef = B2E09F3A16BA183D00C3D1F4 /* YJCalendarWeekView.m */; };
+		B2E09F4116BA339B00C3D1F4 /* YJFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2E09F3F16BA339A00C3D1F4 /* YJFirstViewController.m */; };
+		B2E09F4216BA339B00C3D1F4 /* YJFirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B2E09F4016BA339A00C3D1F4 /* YJFirstViewController.xib */; };
+		B2E09F4616BA473700C3D1F4 /* YJSevenDaysViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2E09F4416BA473700C3D1F4 /* YJSevenDaysViewController.m */; };
+		B2E09F4716BA473700C3D1F4 /* YJSevenDaysViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B2E09F4516BA473700C3D1F4 /* YJSevenDaysViewController.xib */; };
+		B2E09F4B16BA4D8A00C3D1F4 /* YJMonthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2E09F4916BA4D8A00C3D1F4 /* YJMonthViewController.m */; };
+		B2E09F4C16BA4D8A00C3D1F4 /* YJMonthViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B2E09F4A16BA4D8A00C3D1F4 /* YJMonthViewController.xib */; };
+		B2E09F4F16BA4DAB00C3D1F4 /* YJCalendarMonthView.m in Sources */ = {isa = PBXBuildFile; fileRef = B2E09F4E16BA4DAB00C3D1F4 /* YJCalendarMonthView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B219A06816BC088C005E78FC /* YJCalendarWeekScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YJCalendarWeekScrollView.h; path = CalendarUIKit/YJCalendarWeekScrollView.h; sourceTree = SOURCE_ROOT; };
+		B219A06916BC088C005E78FC /* YJCalendarWeekScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YJCalendarWeekScrollView.m; path = CalendarUIKit/YJCalendarWeekScrollView.m; sourceTree = SOURCE_ROOT; };
+		B219A06C16BC0ABF005E78FC /* YJScrollWeekViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJScrollWeekViewViewController.h; sourceTree = "<group>"; };
+		B219A06D16BC0AC0005E78FC /* YJScrollWeekViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJScrollWeekViewViewController.m; sourceTree = "<group>"; };
+		B219A06E16BC0AC1005E78FC /* YJScrollWeekViewViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YJScrollWeekViewViewController.xib; sourceTree = "<group>"; };
+		B26893C316B8C671009C130F /* CalendarView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CalendarView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B26893C716B8C671009C130F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B26893C916B8C671009C130F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B26893CB16B8C671009C130F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B26893CF16B8C671009C130F /* CalendarView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CalendarView-Info.plist"; sourceTree = "<group>"; };
+		B26893D116B8C671009C130F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B26893D316B8C671009C130F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B26893D516B8C671009C130F /* CalendarView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CalendarView-Prefix.pch"; sourceTree = "<group>"; };
+		B26893D616B8C671009C130F /* YJAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YJAppDelegate.h; sourceTree = "<group>"; };
+		B26893D716B8C671009C130F /* YJAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YJAppDelegate.m; sourceTree = "<group>"; };
+		B26893D916B8C671009C130F /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		B26893DB16B8C671009C130F /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		B26893DD16B8C671009C130F /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		B26893E816B8D40D009C130F /* YJDayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJDayViewController.h; sourceTree = "<group>"; };
+		B26893E916B8D40D009C130F /* YJDayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJDayViewController.m; sourceTree = "<group>"; };
+		B26893EA16B8D40D009C130F /* YJDayViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YJDayViewController.xib; sourceTree = "<group>"; };
+		B26893EE16B8D4A6009C130F /* YJCalendarDayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YJCalendarDayView.h; path = CalendarUIKit/YJCalendarDayView.h; sourceTree = SOURCE_ROOT; };
+		B26893EF16B8D4A6009C130F /* YJCalendarDayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YJCalendarDayView.m; path = CalendarUIKit/YJCalendarDayView.m; sourceTree = SOURCE_ROOT; };
+		B26893F716B8D8B8009C130F /* YJCalendarEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YJCalendarEvent.h; path = CalendarUIKit/YJCalendarEvent.h; sourceTree = SOURCE_ROOT; };
+		B26893F816B8D8B8009C130F /* YJCalendarEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YJCalendarEvent.m; path = CalendarUIKit/YJCalendarEvent.m; sourceTree = SOURCE_ROOT; };
+		B26893FD16B906B3009C130F /* YJEventCalculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YJEventCalculator.h; path = CalendarUIKit/YJEventCalculator.h; sourceTree = SOURCE_ROOT; };
+		B26893FE16B906B3009C130F /* YJEventCalculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YJEventCalculator.m; path = CalendarUIKit/YJEventCalculator.m; sourceTree = SOURCE_ROOT; };
+		B268940316B92EC8009C130F /* YJCalendarEventItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YJCalendarEventItemView.h; path = CalendarUIKit/YJCalendarEventItemView.h; sourceTree = SOURCE_ROOT; };
+		B268940416B92EC8009C130F /* YJCalendarEventItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YJCalendarEventItemView.m; path = CalendarUIKit/YJCalendarEventItemView.m; sourceTree = SOURCE_ROOT; };
+		B268940616B9780D009C130F /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		B2E09F3316BA180900C3D1F4 /* YJWeekViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJWeekViewController.h; sourceTree = "<group>"; };
+		B2E09F3416BA180900C3D1F4 /* YJWeekViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJWeekViewController.m; sourceTree = "<group>"; };
+		B2E09F3516BA180900C3D1F4 /* YJWeekViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YJWeekViewController.xib; sourceTree = "<group>"; };
+		B2E09F3916BA183D00C3D1F4 /* YJCalendarWeekView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YJCalendarWeekView.h; path = CalendarUIKit/YJCalendarWeekView.h; sourceTree = SOURCE_ROOT; };
+		B2E09F3A16BA183D00C3D1F4 /* YJCalendarWeekView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YJCalendarWeekView.m; path = CalendarUIKit/YJCalendarWeekView.m; sourceTree = SOURCE_ROOT; };
+		B2E09F3E16BA339A00C3D1F4 /* YJFirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJFirstViewController.h; sourceTree = "<group>"; };
+		B2E09F3F16BA339A00C3D1F4 /* YJFirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJFirstViewController.m; sourceTree = "<group>"; };
+		B2E09F4016BA339A00C3D1F4 /* YJFirstViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YJFirstViewController.xib; sourceTree = "<group>"; };
+		B2E09F4316BA473700C3D1F4 /* YJSevenDaysViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJSevenDaysViewController.h; sourceTree = "<group>"; };
+		B2E09F4416BA473700C3D1F4 /* YJSevenDaysViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJSevenDaysViewController.m; sourceTree = "<group>"; };
+		B2E09F4516BA473700C3D1F4 /* YJSevenDaysViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YJSevenDaysViewController.xib; sourceTree = "<group>"; };
+		B2E09F4816BA4D8900C3D1F4 /* YJMonthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJMonthViewController.h; sourceTree = "<group>"; };
+		B2E09F4916BA4D8A00C3D1F4 /* YJMonthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJMonthViewController.m; sourceTree = "<group>"; };
+		B2E09F4A16BA4D8A00C3D1F4 /* YJMonthViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YJMonthViewController.xib; sourceTree = "<group>"; };
+		B2E09F4D16BA4DAB00C3D1F4 /* YJCalendarMonthView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YJCalendarMonthView.h; path = CalendarUIKit/YJCalendarMonthView.h; sourceTree = SOURCE_ROOT; };
+		B2E09F4E16BA4DAB00C3D1F4 /* YJCalendarMonthView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YJCalendarMonthView.m; path = CalendarUIKit/YJCalendarMonthView.m; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B26893C016B8C671009C130F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B268940716B9780D009C130F /* QuartzCore.framework in Frameworks */,
+				B26893C816B8C671009C130F /* UIKit.framework in Frameworks */,
+				B26893CA16B8C671009C130F /* Foundation.framework in Frameworks */,
+				B26893CC16B8C671009C130F /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B26893B816B8C671009C130F = {
+			isa = PBXGroup;
+			children = (
+				B26893CD16B8C671009C130F /* CalendarView */,
+				B26893C616B8C671009C130F /* Frameworks */,
+				B26893C416B8C671009C130F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B26893C416B8C671009C130F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B26893C316B8C671009C130F /* CalendarView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B26893C616B8C671009C130F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B268940616B9780D009C130F /* QuartzCore.framework */,
+				B26893C716B8C671009C130F /* UIKit.framework */,
+				B26893C916B8C671009C130F /* Foundation.framework */,
+				B26893CB16B8C671009C130F /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B26893CD16B8C671009C130F /* CalendarView */ = {
+			isa = PBXGroup;
+			children = (
+				B26893ED16B8D460009C130F /* CalendarUIKit */,
+				B26893D616B8C671009C130F /* YJAppDelegate.h */,
+				B26893D716B8C671009C130F /* YJAppDelegate.m */,
+				B26893E816B8D40D009C130F /* YJDayViewController.h */,
+				B26893E916B8D40D009C130F /* YJDayViewController.m */,
+				B26893EA16B8D40D009C130F /* YJDayViewController.xib */,
+				B2E09F3316BA180900C3D1F4 /* YJWeekViewController.h */,
+				B2E09F3416BA180900C3D1F4 /* YJWeekViewController.m */,
+				B2E09F3516BA180900C3D1F4 /* YJWeekViewController.xib */,
+				B2E09F4316BA473700C3D1F4 /* YJSevenDaysViewController.h */,
+				B2E09F4416BA473700C3D1F4 /* YJSevenDaysViewController.m */,
+				B2E09F4516BA473700C3D1F4 /* YJSevenDaysViewController.xib */,
+				B219A06C16BC0ABF005E78FC /* YJScrollWeekViewViewController.h */,
+				B219A06D16BC0AC0005E78FC /* YJScrollWeekViewViewController.m */,
+				B219A06E16BC0AC1005E78FC /* YJScrollWeekViewViewController.xib */,
+				B2E09F4816BA4D8900C3D1F4 /* YJMonthViewController.h */,
+				B2E09F4916BA4D8A00C3D1F4 /* YJMonthViewController.m */,
+				B2E09F4A16BA4D8A00C3D1F4 /* YJMonthViewController.xib */,
+				B2E09F3E16BA339A00C3D1F4 /* YJFirstViewController.h */,
+				B2E09F3F16BA339A00C3D1F4 /* YJFirstViewController.m */,
+				B2E09F4016BA339A00C3D1F4 /* YJFirstViewController.xib */,
+				B26893CE16B8C671009C130F /* Supporting Files */,
+			);
+			path = CalendarView;
+			sourceTree = "<group>";
+		};
+		B26893CE16B8C671009C130F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B26893CF16B8C671009C130F /* CalendarView-Info.plist */,
+				B26893D016B8C671009C130F /* InfoPlist.strings */,
+				B26893D316B8C671009C130F /* main.m */,
+				B26893D516B8C671009C130F /* CalendarView-Prefix.pch */,
+				B26893D916B8C671009C130F /* Default.png */,
+				B26893DB16B8C671009C130F /* Default@2x.png */,
+				B26893DD16B8C671009C130F /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B26893ED16B8D460009C130F /* CalendarUIKit */ = {
+			isa = PBXGroup;
+			children = (
+				B268940316B92EC8009C130F /* YJCalendarEventItemView.h */,
+				B268940416B92EC8009C130F /* YJCalendarEventItemView.m */,
+				B26893EE16B8D4A6009C130F /* YJCalendarDayView.h */,
+				B26893EF16B8D4A6009C130F /* YJCalendarDayView.m */,
+				B2E09F3916BA183D00C3D1F4 /* YJCalendarWeekView.h */,
+				B2E09F3A16BA183D00C3D1F4 /* YJCalendarWeekView.m */,
+				B219A06816BC088C005E78FC /* YJCalendarWeekScrollView.h */,
+				B219A06916BC088C005E78FC /* YJCalendarWeekScrollView.m */,
+				B26893F716B8D8B8009C130F /* YJCalendarEvent.h */,
+				B26893F816B8D8B8009C130F /* YJCalendarEvent.m */,
+				B26893FD16B906B3009C130F /* YJEventCalculator.h */,
+				B26893FE16B906B3009C130F /* YJEventCalculator.m */,
+				B2E09F4D16BA4DAB00C3D1F4 /* YJCalendarMonthView.h */,
+				B2E09F4E16BA4DAB00C3D1F4 /* YJCalendarMonthView.m */,
+			);
+			name = CalendarUIKit;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B26893C216B8C671009C130F /* CalendarView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B26893E116B8C671009C130F /* Build configuration list for PBXNativeTarget "CalendarView" */;
+			buildPhases = (
+				B26893BF16B8C671009C130F /* Sources */,
+				B26893C016B8C671009C130F /* Frameworks */,
+				B26893C116B8C671009C130F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CalendarView;
+			productName = CalendarView;
+			productReference = B26893C316B8C671009C130F /* CalendarView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B26893BA16B8C671009C130F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = YJ;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = yangjia;
+			};
+			buildConfigurationList = B26893BD16B8C671009C130F /* Build configuration list for PBXProject "CalendarView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B26893B816B8C671009C130F;
+			productRefGroup = B26893C416B8C671009C130F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B26893C216B8C671009C130F /* CalendarView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B26893C116B8C671009C130F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B26893D216B8C671009C130F /* InfoPlist.strings in Resources */,
+				B26893DA16B8C671009C130F /* Default.png in Resources */,
+				B26893DC16B8C671009C130F /* Default@2x.png in Resources */,
+				B26893DE16B8C671009C130F /* Default-568h@2x.png in Resources */,
+				B26893EC16B8D40D009C130F /* YJDayViewController.xib in Resources */,
+				B2E09F3716BA180900C3D1F4 /* YJWeekViewController.xib in Resources */,
+				B2E09F4216BA339B00C3D1F4 /* YJFirstViewController.xib in Resources */,
+				B2E09F4716BA473700C3D1F4 /* YJSevenDaysViewController.xib in Resources */,
+				B2E09F4C16BA4D8A00C3D1F4 /* YJMonthViewController.xib in Resources */,
+				B219A07016BC0AC2005E78FC /* YJScrollWeekViewViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B26893BF16B8C671009C130F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B26893D416B8C671009C130F /* main.m in Sources */,
+				B26893D816B8C671009C130F /* YJAppDelegate.m in Sources */,
+				B26893EB16B8D40D009C130F /* YJDayViewController.m in Sources */,
+				B26893F016B8D4A6009C130F /* YJCalendarDayView.m in Sources */,
+				B26893F916B8D8B8009C130F /* YJCalendarEvent.m in Sources */,
+				B26893FF16B906B3009C130F /* YJEventCalculator.m in Sources */,
+				B268940516B92EC8009C130F /* YJCalendarEventItemView.m in Sources */,
+				B2E09F3616BA180900C3D1F4 /* YJWeekViewController.m in Sources */,
+				B2E09F3B16BA183D00C3D1F4 /* YJCalendarWeekView.m in Sources */,
+				B2E09F4116BA339B00C3D1F4 /* YJFirstViewController.m in Sources */,
+				B2E09F4616BA473700C3D1F4 /* YJSevenDaysViewController.m in Sources */,
+				B2E09F4B16BA4D8A00C3D1F4 /* YJMonthViewController.m in Sources */,
+				B2E09F4F16BA4DAB00C3D1F4 /* YJCalendarMonthView.m in Sources */,
+				B219A06A16BC088D005E78FC /* YJCalendarWeekScrollView.m in Sources */,
+				B219A06F16BC0AC2005E78FC /* YJScrollWeekViewViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B26893D016B8C671009C130F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B26893D116B8C671009C130F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B26893DF16B8C671009C130F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Beijing FingerSoft Technology Limited";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Beijing FingerSoft Technology Limited";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "6801140B-719A-4EC0-A34A-27891A031C96";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "6801140B-719A-4EC0-A34A-27891A031C96";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B26893E016B8C671009C130F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Beijing FingerSoft Technology Limited";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Beijing FingerSoft Technology Limited";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "6801140B-719A-4EC0-A34A-27891A031C96";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "6801140B-719A-4EC0-A34A-27891A031C96";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B26893E216B8C671009C130F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Beijing FingerSoft Technology Limited";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Beijing FingerSoft Technology Limited";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CalendarView/CalendarView-Prefix.pch";
+				INFOPLIST_FILE = "CalendarView/CalendarView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "6801140B-719A-4EC0-A34A-27891A031C96";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "6801140B-719A-4EC0-A34A-27891A031C96";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B26893E316B8C671009C130F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Beijing FingerSoft Technology Limited";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Beijing FingerSoft Technology Limited";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CalendarView/CalendarView-Prefix.pch";
+				INFOPLIST_FILE = "CalendarView/CalendarView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "6801140B-719A-4EC0-A34A-27891A031C96";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "6801140B-719A-4EC0-A34A-27891A031C96";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B26893BD16B8C671009C130F /* Build configuration list for PBXProject "CalendarView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B26893DF16B8C671009C130F /* Debug */,
+				B26893E016B8C671009C130F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B26893E116B8C671009C130F /* Build configuration list for PBXNativeTarget "CalendarView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B26893E216B8C671009C130F /* Debug */,
+				B26893E316B8C671009C130F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B26893BA16B8C671009C130F /* Project object */;
+}
